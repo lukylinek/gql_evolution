@@ -6,6 +6,9 @@ from sqlalchemy.ext.asyncio import create_async_engine
 from .BaseModel import BaseDBModel, IDType, UUIDColumn, UUIDFKey
 from .Domain_Events import EventModel, EventInvitationModel, EventTypeModel
 
+# Nacteni modelu pro evidenci casopisu.
+from .Domain_Publications import JournalTypeModel, JournalModel
+
 
 async def startEngine(connectionstring, makeDrop=False, makeUp=True):
     """Provede nezbytne ukony a vrati asynchronni SessionMaker"""
@@ -71,6 +74,7 @@ def ComposeConnectionString():
 __all__ = [
     'BaseDBModel', 'IDType', 'UUIDColumn', 'UUIDFKey',
     'EventModel', 'EventInvitationModel', 'EventTypeModel',
-    'startEngine', 'ComposeConnectionString', 'EventTypeModel'
+    'startEngine', 'ComposeConnectionString', 'EventTypeModel',
+    'JournalTypeModel', 'JournalModel'
 ]
 
