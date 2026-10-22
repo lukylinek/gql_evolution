@@ -1,9 +1,59 @@
 {
-    "eventtypes": [
+    "eventtypes": [],
+    "events": [],
+    "event_invitations": [],
+    "journaltypes": [
+        {
+            "id": "aa6b09ba-4baa-44b6-a99e-fe7e83195ff7",
+            "name": "scientific",
+            "label": "Vědecký časopis",
+            "description": "Časopis zaměřený na publikování vědeckých článků.",
+            "parent_id": null,
+            "_chunk": 0
+        },
+        {
+            "id": "3dcf9dab-bca8-5298-b7a3-d6b8bbff00e0",
+            "name": "professional",
+            "label": "Odborný časopis",
+            "description": null,
+            "parent_id": null,
+            "_chunk": 0
+        },
+        {
+            "id": "f330ce17-2162-517d-ba8c-be0a368f7fe9",
+            "name": "reviewed",
+            "label": "Recenzovaný časopisssss",
+            "description": null,
+            "parent_id": null,
+            "_chunk": 0
+        },
+        {
+            "id": "29f390c7-8084-547c-8d57-c7638f3c6fde",
+            "name": "conference_series",
+            "label": "Konferenční série",
+            "description": null,
+            "parent_id": null,
+            "_chunk": 0
+        },
+        {
+            "id": "638819dd-5f6c-49e6-a52d-d3183b5a8c55",
+            "name": "scientific_technical",
+            "label": "Vědecký časopis – technické vědy",
+            "description": "Ukázkový podtyp vědeckých časopisů.",
+            "parent_id": "aa6b09ba-4baa-44b6-a99e-fe7e83195ff7",
+            "_chunk": 1
+        }
     ],
-    "events": [
-    ],
-    "event_invitations": [
+    "journals": [
+        {
+            "id": "8665680b-91ba-491c-b54f-007c01efbc86",
+            "name": "Ukázkový vědecký časopis",
+            "short_name": "UVČ",
+            "journal_type_id": "aa6b09ba-4baa-44b6-a99e-fe7e83195ff7",
+            "issn": null,
+            "eissn": null,
+            "publisher": "Ukázkové vydavatelství",
+            "website": "https://example.org"
+        }
     ]
-
 }

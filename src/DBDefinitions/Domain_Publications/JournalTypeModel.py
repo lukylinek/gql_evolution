@@ -49,4 +49,6 @@ class JournalTypeModel(BaseDBModel):
         uselist=True,
         init=True,
         cascade="save-update",
+        # Používaný typ nesmažeme ani jeho podtypy automaticky neodpojíme.
+        passive_deletes="all",
     )
