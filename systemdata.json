@@ -54,6 +54,16 @@
             "eissn": null,
             "publisher": "Ukázkové vydavatelství",
             "website": "https://example.org"
+        },
+        {
+            "id": "52b5cf1e-94fa-4e18-95c4-7572ceb29762",
+            "name": "Testovací časopis pro ověření importu",
+            "short_name": "TEST",
+            "journal_type_id": "3dcf9dab-bca8-5298-b7a3-d6b8bbff00e0",
+            "issn": null,
+            "eissn": null,
+            "publisher": "Testovací vydavatelství",
+            "website": "https://example.org/test"
         }
     ]
 }

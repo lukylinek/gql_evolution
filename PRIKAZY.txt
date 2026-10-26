@@ -1,0 +1,11 @@
+﻿python -m src.DBDefinitions.main Journal list
+python -m src.DBDefinitions.main Journal get "@vyber.json"
+python -m src.DBDefinitions.main Journal create "@novy-casopis.json"
+python -m src.DBDefinitions.main Journal update "@uprava.json"
+python -m src.DBDefinitions.main Journal delete "@vyber.json"
+
+python -m src.DBDefinitions.main JournalType list
+python -m src.DBDefinitions.main JournalType get "@vyber-typu.json"
+python -m src.DBDefinitions.main JournalType create "@novy-typ.json"
+python -m src.DBDefinitions.main JournalType update "@uprava-typu.json"
+python -m src.DBDefinitions.main JournalType delete "@vyber-typu.json"
